@@ -1,8 +1,10 @@
-const reverseArray = (arr) => {
-    const newArray = [];
-    for(let i = arr.length - 1; i >= 0; i--) {
-        newArray.push(arr[i]);
+export const reverseArray = (arr) => {
+    for(let i = 0; i <= Math.floor((arr.length - 1) / 2); i++) {
+        let index = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = index;
     }
-    return newArray;
+    return arr;
 };
+
 

@@ -9,3 +9,6 @@
 
 ## Solution
 <!-- Embedded whiteboard image -->
+
+Table of Contents:
+Array Reverse: './challenges/array-reverse/array=reverse.js
