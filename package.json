@@ -12,6 +12,9 @@
     "test:watch": "npm run test -- --watch",
     "lint": "eslint '**/*.js'"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cackmed/data-structures-and-algorithms.git"
