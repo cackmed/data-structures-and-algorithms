@@ -105,6 +105,6 @@ class Linkedlist {
   }
 }
 
-}
+
 
 module.exports = { Node, Linkedlist };
