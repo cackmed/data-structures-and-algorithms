@@ -31,7 +31,7 @@ class Linkedlist {
 
     while(current !== null){
       if(current.next !== null){
-        string += current.value;
+        string += current.value + ' || ';
       } else {
         string += current.value;
       }
