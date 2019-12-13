@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576192582692" clover="3.2.0">
-  <project timestamp="1576192582692" name="All files">
+<coverage generated="1576261085087" clover="3.2.0">
+  <project timestamp="1576261085087" name="All files">
     <metrics statements="89" coveredstatements="68" conditionals="24" coveredconditionals="16" methods="13" coveredmethods="12" elements="126" coveredelements="96" complexity="0" loc="89" ncloc="89" packages="4" files="4" classes="4"/>
     <package name="array-binary">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
@@ -35,12 +35,12 @@
       <metrics statements="60" coveredstatements="41" conditionals="12" coveredconditionals="5" methods="10" coveredmethods="9"/>
       <file name="linked-list.js" path="/Users/LifetimeOpt/alchemy/career-track/data-structures-and-algorithms/challenges/linked-lists/linked-list.js">
         <metrics statements="60" coveredstatements="41" conditionals="12" coveredconditionals="5" methods="10" coveredmethods="9"/>
-        <line num="3" count="23" type="stmt"/>
-        <line num="4" count="23" type="stmt"/>
-        <line num="10" count="8" type="stmt"/>
-        <line num="13" count="19" type="stmt"/>
-        <line num="14" count="19" type="stmt"/>
-        <line num="15" count="19" type="stmt"/>
+        <line num="3" count="31" type="stmt"/>
+        <line num="4" count="31" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="13" count="27" type="stmt"/>
+        <line num="14" count="27" type="stmt"/>
+        <line num="15" count="27" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
         <line num="20" count="4" type="stmt"/>
         <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
@@ -94,7 +94,7 @@
         <line num="101" count="0" type="stmt"/>
         <line num="102" count="0" type="stmt"/>
         <line num="104" count="0" type="stmt"/>
-        <line num="110" count="1" type="stmt"/>
+        <line num="110" count="2" type="stmt"/>
       </file>
     </package>
     <package name="ll-merge">
