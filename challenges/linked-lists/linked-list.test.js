@@ -26,6 +26,18 @@ describe('Linked List Test Module', () => {
     list.insert('300');
   };
 
+  const newData = () => {
+    list.insert('100');
+    list.insert('200');
+    list.insert('300');
+    list.insert('400');
+    list.insert('500');
+    list.insert('600');
+    list.insert('700');
+    list.insert('800');
+    list.insert('900');
+  };
+
   it('linked list has a head', () => {
     expect(list.head).toEqual(null);
   });
@@ -70,6 +82,14 @@ describe('Linked List Test Module', () => {
     data();
     list.delete('200');
     expect(list.toString()).toEqual('300 || 100');
+  });
+  it('returns the kth number from the end', () => {
+    newData();
+    expect(list.kthFromEnd(4)).toEqual('500');
+    expect(list.kthFromEnd(11)).toEqual('Chosen number is to high, please choose a lower number.');
+    expect(list.kthFromEnd(-3)).toEqual('Please input a positive number');
+
+
   });
 });
 

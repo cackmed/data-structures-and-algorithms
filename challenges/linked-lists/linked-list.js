@@ -78,6 +78,33 @@ class Linkedlist {
     }
     current.next = current.next.next;
   }
+  kthFromEnd(number){
+    if(number < 0){
+      return 'Please input a positive number';
+    }
+    if(this.head === null){
+      return 'No items in list';
+    }
+
+    let current = this.head;
+    let size = 1;
+    while(current.next !== null){
+      current = current.next;
+      size++;
+    }
+
+    if(number > size){
+      return 'Chosen number is to high, please choose a lower number.';
+    }
+    
+    current = this.head;
+    for(let i = 0; i < size - 1 - number; i++){
+      current = current.next;
+    }
+    return current.value;
+  }
 }
+
+
 
 module.exports = { Node, Linkedlist };

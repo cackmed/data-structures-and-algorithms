@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576138359158" clover="3.2.0">
-  <project timestamp="1576138359158" name="All files">
-    <metrics statements="62" coveredstatements="58" conditionals="12" coveredconditionals="11" methods="11" coveredmethods="11" elements="85" coveredelements="80" complexity="0" loc="62" ncloc="62" packages="3" files="3" classes="3"/>
+<coverage generated="1576530933939" clover="3.2.0">
+  <project timestamp="1576530933939" name="All files">
+    <metrics statements="77" coveredstatements="72" conditionals="18" coveredconditionals="16" methods="12" coveredmethods="12" elements="107" coveredelements="100" complexity="0" loc="77" ncloc="77" packages="3" files="3" classes="3"/>
     <package name="array-binary">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="array-binary.js" path="/Users/LifetimeOpt/alchemy/career-track/data-structures-and-algorithms/challenges/array-binary/array-binary.js">
@@ -32,29 +32,29 @@
       </file>
     </package>
     <package name="linked-lists">
-      <metrics statements="45" coveredstatements="41" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="9"/>
+      <metrics statements="60" coveredstatements="55" conditionals="12" coveredconditionals="10" methods="10" coveredmethods="10"/>
       <file name="linked-list.js" path="/Users/LifetimeOpt/alchemy/career-track/data-structures-and-algorithms/challenges/linked-lists/linked-list.js">
-        <metrics statements="45" coveredstatements="41" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="9"/>
-        <line num="3" count="23" type="stmt"/>
-        <line num="4" count="23" type="stmt"/>
-        <line num="10" count="8" type="stmt"/>
-        <line num="13" count="19" type="stmt"/>
-        <line num="14" count="19" type="stmt"/>
-        <line num="15" count="19" type="stmt"/>
+        <metrics statements="60" coveredstatements="55" conditionals="12" coveredconditionals="10" methods="10" coveredmethods="10"/>
+        <line num="3" count="32" type="stmt"/>
+        <line num="4" count="32" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="13" count="28" type="stmt"/>
+        <line num="14" count="28" type="stmt"/>
+        <line num="15" count="28" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
         <line num="20" count="4" type="stmt"/>
         <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="22" count="3" type="stmt"/>
         <line num="24" count="6" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
-        <line num="30" count="5" type="stmt"/>
-        <line num="32" count="5" type="stmt"/>
-        <line num="33" count="16" type="cond" truecount="2" falsecount="0"/>
-        <line num="34" count="11" type="stmt"/>
-        <line num="36" count="5" type="stmt"/>
-        <line num="38" count="16" type="stmt"/>
-        <line num="40" count="5" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="9" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
         <line num="44" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
@@ -79,7 +79,22 @@
         <line num="76" count="1" type="stmt"/>
         <line num="77" count="0" type="stmt"/>
         <line num="79" count="1" type="stmt"/>
+        <line num="82" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="83" count="1" type="stmt"/>
+        <line num="85" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="91" count="2" type="stmt"/>
+        <line num="92" count="16" type="stmt"/>
+        <line num="93" count="16" type="stmt"/>
+        <line num="96" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="102" count="4" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
       </file>
     </package>
   </project>
