@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576530933939" clover="3.2.0">
-  <project timestamp="1576530933939" name="All files">
-    <metrics statements="77" coveredstatements="72" conditionals="18" coveredconditionals="16" methods="12" coveredmethods="12" elements="107" coveredelements="100" complexity="0" loc="77" ncloc="77" packages="3" files="3" classes="3"/>
+<coverage generated="1576718059995" clover="3.2.0">
+  <project timestamp="1576718059995" name="All files">
+    <metrics statements="80" coveredstatements="75" conditionals="18" coveredconditionals="16" methods="13" coveredmethods="13" elements="111" coveredelements="104" complexity="0" loc="80" ncloc="80" packages="4" files="4" classes="4"/>
     <package name="array-binary">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="array-binary.js" path="/Users/LifetimeOpt/alchemy/career-track/data-structures-and-algorithms/challenges/array-binary/array-binary.js">
@@ -95,6 +95,15 @@
         <line num="102" count="4" type="stmt"/>
         <line num="104" count="1" type="stmt"/>
         <line num="110" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="multiBracketValidation">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="multi-bracket-validation.js" path="/Users/LifetimeOpt/alchemy/career-track/data-structures-and-algorithms/challenges/multiBracketValidation/multi-bracket-validation.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
   </project>
